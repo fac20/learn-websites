@@ -1,0 +1,29 @@
+{
+  "name": "learn-websites",
+  "version": "1.0.0",
+  "description": "Learning to be a web developer in the modern world involves picking up a ton of JavaScript-focused single-page application stuff. This makes it easy to miss out on learning how to make what is still the fundamental building block of the web—regular old websites.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy build",
+    "dev": "eleventy build --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac20/learn-websites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac20/learn-websites/issues"
+  },
+  "homepage": "https://github.com/fac20/learn-websites#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4"
+  }
+}
